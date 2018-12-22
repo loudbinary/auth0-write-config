@@ -19,7 +19,8 @@
     "url": "https://github.com/loudbinary/auth0-write-config/issues"
   },
   "homepage": "https://github.com/loudbinary/auth0-write-config#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "commander": "^2.19.0",
     "envkey": "^1.2.4",
     "fs-extra": "^7.0.1",
