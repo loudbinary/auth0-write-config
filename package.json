@@ -21,6 +21,8 @@
   "homepage": "https://github.com/loudbinary/auth0-write-config#readme",
   "devDependencies": {
     "commander": "^2.19.0",
-    "fs-extra": "^7.0.1"
+    "envkey": "^1.2.4",
+    "fs-extra": "^7.0.1",
+    "lodash": "^4.17.11"
   }
 }
