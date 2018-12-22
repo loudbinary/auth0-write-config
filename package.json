@@ -1,0 +1,19 @@
+{
+  "name": "auth0-write-config",
+  "version": "1.0.0",
+  "description": "Write out Auth0 Cli config.json file, using envkey values.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loudbinary/auth0-write-config.git"
+  },
+  "author": "Loudbinary <loudbinary@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loudbinary/auth0-write-config/issues"
+  },
+  "homepage": "https://github.com/loudbinary/auth0-write-config#readme"
+}
