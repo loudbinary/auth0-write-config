@@ -1,6 +1,6 @@
 {
   "name": "auth0-write-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Write out Auth0 Cli config.json file, using envkey values.",
   "main": "app.js",
   "scripts": {
