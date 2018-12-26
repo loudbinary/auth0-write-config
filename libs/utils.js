@@ -4,7 +4,7 @@ const fse = require('fs-extra')
 function Utils() {
     this.name = "utils"
 }
-Utils.prototype.emitConfig = function emitConfig(savePath){
+Utils.prototype.emitConfig = function emitConfig(savePath,overWrite){
     return new Promise((resolve, reject)=>{
         try{
             require('envkey');
@@ -19,7 +19,7 @@ Utils.prototype.emitConfig = function emitConfig(savePath){
             AUTH0_KEYWORD_REPLACE_MAPPINGS: {
                 "EMPTY_RULE": "why must this be here."
             },
-            AUTH0_ALLOW_DELETE: false
+            AUTH0_ALLOW_DELETE: overWrite.toString()
         }
         fse.writeJSONSync(path.resolve(savePath),template,{spaces:4})
         resolve(null)

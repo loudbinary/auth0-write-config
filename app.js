@@ -6,8 +6,9 @@ let app = new App();
 
 app.processArgs(()=>{
     savePath = app.options.output
-    app.utils.emitConfig(savePath)
+    overWrite = app.options.remove
+    app.utils.emitConfig(savePath,overWrite)
     .catch(e =>{
-        console.log(e)
+        app.options.help()
     })
 })

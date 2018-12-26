@@ -10,10 +10,10 @@
             "name": "Launch Program",
             "program": "${workspaceFolder}/app.js",
             "args":[
-                "-o","./config.json"
+                "-o","/Users/charles.russell/Loudbinary/config.json","-r","true"
             ],
             "env":{
-                "ENVKEY": ""
+                "ENVKEY": "DCRigFisz5T5m2quohzG-qtixiGsYELTkLqth"
             }
         }
     ]
